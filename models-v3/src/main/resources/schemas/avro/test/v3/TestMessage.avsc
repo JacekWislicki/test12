@@ -1,0 +1,23 @@
+{
+    "type":"record",
+    "name":"TestMessage",
+    "namespace":"com.example.test12.model",
+    "fields":[
+        {
+            "name":"eventIdentifier",
+            "type":[
+                "null",
+                "string"
+            ],
+            "default":null
+        },
+        {
+            "name":"active",
+            "type":[
+                "null",
+                "boolean"
+            ],
+            "default":null
+        }
+    ]
+}
